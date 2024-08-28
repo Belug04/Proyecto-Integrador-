@@ -1,0 +1,312 @@
+/* Paleta de colores:
+   Color Primario: #6CDDE0
+   Color Secundario: #6C93E0
+   Color Terceario: #6CB8E0
+   Color Cuarto: #6CE0BD
+   Color Quinto: #6C6EE0
+   Color Sexto: #B6D1E0
+*/
+
+*{
+   padding: 0%;
+   margin: 0%;
+}
+body{
+   background-image: url(../Imagenes/fondo\ imagen\ 3.jpg);
+   background-size:cover;
+}
+
+footer{
+   background-color: #6C93E0;
+   font-family:'Times New Roman', Times, serif;
+   font-style: inherit;
+   font-size: x-small;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 10px;
+   font-size: 14px;
+   max-height: max-content;
+   position: fixed;
+   bottom: 0%;
+   width: 100%;
+
+}
+
+/*Pagina Inicio*/
+
+
+.elementopadre{
+   list-style-type: none;
+   padding: 0%;
+   border: 5px solid #B6D1E0;
+   display: flex;
+   justify-content:space-around;
+   flex-direction: column;
+   height:max-content;
+   
+}
+
+.elementopadre{
+   border: 5px solid #B6D1E0;
+   padding: 5px;
+   color:rgb(43, 43, 41);
+   background-color:  #6CDDE0;
+   
+}
+li{
+   color: rgb(20, 230, 230);
+   transition: 2000ms;
+   transition-property: background-color;
+   border-color: rgb(83, 81, 81);
+}
+li:hover{
+   box-shadow: 0px 0px 0px 10px  #6CB8E0;
+   color: #484850;
+   border-color: rgb(90, 87, 87);
+}
+
+.article{
+   background-color: #B6D1E0;
+   color: rgb(3, 3, 3);
+   border: 5px solid rgb(48, 46, 46);
+   border-radius: 5px;
+   transition: 400ms;
+   opacity: 0.7;
+   margin-top: auto;
+   
+
+}
+.div1{
+   background-color: #B6D1E0;
+   color: black;
+   border: 1px solid rgb(116, 111, 111);
+   border-radius: 5px;
+
+}
+.article:hover, .div1:hover{
+   background-color: #6a6bc5;
+   cursor: pointer;
+   color: antiquewhite;
+   border: 5px dashed #4b565c;
+   box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.308);
+   scale: 1.00;
+}
+
+.parrafo{
+   text-align: center;
+}
+.img-inicio{
+   width: 450px;
+   height: 400px;
+   
+   
+}
+
+.title-inicio, .subtitle, .parrafo{
+   display: flex;
+   justify-content: center;
+}
+
+.section{
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 10px;
+   
+}
+
+.div1{
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 10px;
+   grid-column-start: auto;
+}
+
+.div{
+   background-color: #6C6EE0;
+   border:  1px solid rgb(63, 61, 61);
+   width: 200px;
+   margin: 20px;
+}
+
+.div{
+   animation:  div 5s infinite;
+
+}
+@keyframes div{
+   0%{
+      opacity: 1;
+   }
+   100%{
+      opacity: 0;
+   }
+}
+@media (min-width:767px){
+.elementopadre{
+   display: flex;
+   flex-direction: row;
+   background-color: #6CB8E0;
+
+}
+
+}
+
+/*Pagina Productos*/
+
+.footer {
+   background-color: #6C93E0;
+   font-family:'Times New Roman', Times, serif;
+   font-style: inherit;
+   font-size: x-small;
+   margin: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 10px;
+   font-size: 14px;
+   max-height: max-content;
+   position: relative;
+   bottom: 0%;
+   width: 100%;
+
+} 
+
+.card-conteiner{
+   display: grid;
+   gap: 10px;
+   
+}
+
+.card{
+   background-color: #6CDDE0;
+   padding: 2px;
+   border: 5px solid rgb(44, 43, 43);
+   border-radius: 10px;
+   cursor: pointer;
+   transition: all 0.3;
+}
+
+.card:hover{
+   transform: scale(0.9);
+   transition: all 0.3s;
+}
+
+.card-title, .card-p{
+   color: rgb(73, 71, 71) ;
+   display: flex;
+   justify-content: center;
+   font-family:'Times New Roman', Times, serif;
+   font-style: inherit;
+}
+.title-ge{
+   background-color: #6CDDE0;
+   padding: 2px;
+   border: 5px solid rgb(44, 43, 43);
+   border-radius: 10px;
+   text-align: center;
+   font-family:'Times New Roman', Times, serif;
+   font-style: inherit;
+
+}
+
+.img{
+   width: 655px;
+   height: 400px;
+   display: flex;
+   justify-items: center;
+
+}
+
+.btn{
+   background-color:  #6C6EE0;
+   border: 5px solid black;
+}
+
+@media (min-width: 988px){
+
+
+
+}
+/* Pagina Contacto */
+
+.form-conteiner{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+input, select,button,textarea{
+   width: 50%;
+   text-align: center;
+   background-color: #6CDDE0;
+   padding: 2px;
+   border: 5px solid rgb(44, 43, 43);
+   border-radius: 10px;
+   cursor: pointer;
+   transition: 2000ms;
+   transition-property: opacity;
+   
+   
+}
+
+
+   input:hover, select:hover, button:hover, textarea:hover{
+      transform: scale(0.9);
+      transition: all 0.3s;
+   }
+
+
+
+
+
+
+
+
+/* Pagina Quienes Somos */
+
+.img-nos{
+   width: 850px;
+   height: 400px;
+   display: flex;
+   justify-items: center;
+}
+
+.card-conteiner1{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   
+}
+
+.card1{
+   background-color: #6CDDE0;
+   padding: 2px;
+   border: 5px solid rgb(44, 43, 43);
+   border-radius: 10px;
+   cursor: pointer;
+   transition: all 0.3;
+}
+
+.card1:hover{
+   transform: scale(0.9);
+   transition: all 0.3s;
+}
+
+.card-title1, .card-p1{
+   color: black ;
+   display: flex;
+   justify-content: center;
+   font-family:'Times New Roman', Times, serif;
+   font-style: inherit;
+}
+.title-ge1{
+   background-color: #6CDDE0;
+   padding: 2px;
+   border: 5px solid rgb(44, 43, 43);
+   border-radius: 10px;
+   text-align: center;
+   font-family:'Times New Roman', Times, serif;
+   font-style: inherit;
+
+}
+
