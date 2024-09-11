@@ -75,7 +75,11 @@ li:hover{
    transition: 400ms;
    opacity: 0.7;
    margin-top: auto;
-   
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 10px;
+   grid-column-start: auto;
+   margin: 10px;
 
 }
 .div1{
@@ -277,9 +281,6 @@ li:hover{
       width: 100%;
    
    } 
-  
-   
-   
 
 }
 /* Pagina Contacto */
@@ -292,8 +293,7 @@ li:hover{
    padding: 30px;
    width: 415px;
    margin-left: 500px;
-  
-   
+
 }
 .form-conteiner{
    background-color: #4b565c;
