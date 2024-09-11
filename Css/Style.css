@@ -230,7 +230,7 @@ li:hover{
    font-family:'Times New Roman', Times, serif;
    font-style: inherit;
    margin-top:-1150px;
-   display: flex;
+   display: block;
    justify-content: center;
    align-items: center;
    
